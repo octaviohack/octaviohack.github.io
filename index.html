@@ -14,6 +14,7 @@
     <link rel="manifest" href="assets/img/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,16 +25,66 @@
 
     <p>I created this website to showcase some of my recent web design work.</p>  
 
-    <h3>Sample Web Pages</h3>
+    <section class="section-selector-1">
 
-    <p><a href="exercises\page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises\page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises\page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises\page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-    <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-    <p><a href="exercises/page-7.html">Smoothies</a></p> 
-    <p><a href="exercises/page-8.html">Software Analytics</a></p> 
-    <p><a href="exercises/page-9.html">The Box Model</a></p> 
+		<div class="columnas">
+			
+			<div class="col-1"><h3>A Tale of Two Cities</h3>
+                <p><a href="exercises\page-1.html">A Tale of Two Cities</a></p>
+			</div>
+
+			<div class="col-2"><h3>IBAT Chocolates</h3>
+                <p><a href="exercises\page-2.html">IBAT Chocolates</a></p>
+			</div>
+
+			<div class="col-3"><h3>Prince & Purple Rain</h3>
+                <p><a href="exercises\page-3.html">Prince & Purple Rain</a></p>
+			</div>
+            <div class="col-4"><h3>Lorem Ipsum Text</h3>
+                <p><a href="exercises\page-4.html">Lorem Ipsum Text</a></p>
+			</div>
+            <div class="col-5"><h3>Vincent van Gogh</h3>
+                <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
+			</div>
+            <div class="col-6"><h3>Irish Tourism</h3>
+                <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
+			</div>
+            <div class="col-7"><h3>Smoothies</h3>
+                <p><a href="exercises/page-7.html">Smoothies</a></p> 
+			</div>
+            <div class="col-8"><h3>Software Analytics</h3>
+                <p><a href="exercises/page-8.html">Software Analytics</a></p> 
+			</div>
+            <div class="col-9"><h3>The Box Model and Page Web Flexbox</h3>
+                <p><a href="exercises/page-11.html">The Box Model and Page Web Flexbox</a></p> 
+			</div>
+            <div class="col-10"><h3>The Hero block text and image</h3>
+                <p><a href="exercises/Herotext.html">The Hero block text and image</a></p> 
+			</div>
+            <div class="col-11"><h3>The video</h3>
+                <p><a href="exercises/hero-video.html">The video</a></p> 
+			</div>
+
+		</div>	
+		
+	</section>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "content": {
+        "dismiss": "GOT IT!",
+        "link": "LEARN MORE",
+        "href": "https://octaviohack.github.io"
+      }
+    });
+    </script>
 </body>
-</html>
+</html> 

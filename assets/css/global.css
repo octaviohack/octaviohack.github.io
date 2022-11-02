@@ -54,7 +54,7 @@ body {
    text-align: center;
    font-family: 'Montserrat', sans-serif;
    height: 100%;
-   background-color: black;
+   background-image: linear-gradient(to bottom, #121112, #1d1b1e, #27252a, #303037, #393b45, #3d4e63, #33647f, #007b97, #00a3a9, #00c895, #7ce764, #f6f91c);
    
 }
 .columnas{
@@ -95,8 +95,10 @@ h3 {
     text-transform: uppercase;
     color: rgb(209, 208, 202);
 }
+
 h3 :hover{
-    color: black ;
+    color: rgb(12, 11, 11) ;
+    
 }
 
 p {

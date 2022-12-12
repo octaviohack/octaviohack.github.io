@@ -1,0 +1,80 @@
+body{
+  font-family: 'Rajdhani', sans-serif;
+}
+img.logo-nav {
+  width:180px;
+  height:60px;
+}
+video.background-video.container-media{
+height: 200px;
+}
+
+h2{ 
+  font-family: 'Press Start 2P', cursive;
+  font-size: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  
+  
+
+}
+h2 span{ 
+  font-size: 50px;
+  cursor: default ;
+color: rgb(85, 85, 109); 
+  
+}
+
+ h2 span:hover{
+  animation: animar-texto 1s ease-in-out 1 normal both;
+  }
+  @keyframes animar-texto {
+   from {
+    transform: scale3d(1,1,1);
+  }
+  40%{
+    transform: scale3d(.75,1.25,1);
+    color: rgba(209, 10, 235, 0.764);
+  }
+  50%{
+    transform: scale3d(1.25,0.85,1);
+  }
+  65%{
+    transform: scale3d(.95,1.05,1);
+  }
+  75%{
+    transform: scale3d(1.05,0.95,1);
+  }
+  to {
+    transform: scale3d(1,1,1);
+  }
+  }
+
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(#E200FF) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(#E200FF) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--black-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--white-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--black-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle { background-color: var(#E200FF) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--black-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-image: var(--black-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) } 

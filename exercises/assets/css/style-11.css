@@ -10,6 +10,7 @@ h1, h2, h3, h4 { width: 100% }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
+
 /* ======================= SECTIONS ======================== */
 
 /* Regular and larger screens */
@@ -46,7 +47,7 @@ input, button, textarea, select { font: inherit }
   @media (max-width: 399px) { 
       section { padding: 7% 10% 8% 10% } 
   }
-  
+
 
 /* ==== Headings ==== */
 
@@ -67,44 +68,45 @@ h3 {
 /* Paragraphs of text */
 p {
 	font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #696969;
     line-height: 1.5;
 }
 /* == FLEXBOX PARENT CONTAINER == */
 .container-flexbox { 
     display: flex; 
-    justify-content: space-between
-}
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+ }
+
 
 .bono {
     background-color: #4081ec;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 25%; 
+    width: 23%;
 }
 
 .edge {
     background-color: #ffbb33;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 25%; 
+    width: 23%; 
 }
 
 .adam {
     background-color: #f73345;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 25%;
+    width: 23%; 
 }
 
 .larry {
     background-color: #e0e0e0;
     padding: 12px; 
     margin-bottom: 40px; 
-    width: 25%;
+    width: 23%; 
 }
-
 .bono h3,
 .bono p,
 .adam h3,
@@ -114,3 +116,9 @@ p {
 .edge p,
 .larry h3,
 .larry p { color: #000 }
+/* === COLUMN WIDTH ON MOBILES === */
+@media (max-width: 767px) { 
+    .bono, .edge, .adam, .larry { 
+      width: 100%; 
+    }
+  }

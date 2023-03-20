@@ -17,8 +17,7 @@ footer *:last-child { margin-bottom: 0 !important }
 
 :root {
     /* Nicer than default sans-serif font */
-    --sans-serif: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
-      
+    font-family: 'Rajdhani', sans-serif;
     /* Color variables */
     --black-000: #000;
     --white-000: #fff;
@@ -155,7 +154,7 @@ body { font-family: var(--'Rajdhani') }
 
 /* ================ HERO BLOCK ================ */
 
-header.hero-block { background-color: var(--blue-600) }
+header.hero-block { background-color: white }
 
 .hero-block {
     position: relative; overflow: hidden;
@@ -2210,7 +2209,7 @@ footer p.privacy a:hover, footer p.privacy a:active {
 
 .container-menu ul li a { 
     font-size: calc(18px + (20 - 18) * ((100vw - 320px)/(1920 - 320)));
-    font-family: var(--sans-serif);
+    font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
 }
 
@@ -2346,7 +2345,9 @@ footer p.privacy a:hover, footer p.privacy a:active {
 }
 
 /* Sticky menu */
-.menu-sticky { position: fixed; top: 0; left: 0; right: 0; z-index: 99999 }
+.menu-sticky { position: fixed; top: 0; left: 0; right: 0; z-index: 99999
+
+}
 
   
 /* ======= MOBILE MENU  ======== */

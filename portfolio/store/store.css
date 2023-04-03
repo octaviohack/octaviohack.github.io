@@ -4,8 +4,11 @@ body{
 img.logo-nav {
   width:180px;
   height:60px;
-}
   
+}
+
+
+
   nav.theme-dark .nav-toggle .bar-1,
   nav.theme-dark .nav-toggle .bar-2,
   nav.theme-dark .nav-toggle .bar-3 { background-color: var(--white-000) }
@@ -32,3 +35,20 @@ img.logo-nav {
   nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
   nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
   nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--fuchsia-600) }
+
+  footer{
+    background-color: rgb(7, 7, 7);
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+    font-family: 'Rajdhani', sans-serif;
+  }
+ 

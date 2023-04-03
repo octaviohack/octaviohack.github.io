@@ -2024,10 +2024,21 @@ a.btn-ghost:active {
 	footer { padding: 9% 10% 12% 10% } 
 }
 
-footer { 
+footer{
+    background-color: rgb(7, 7, 7);
+    color: rgb(247, 247, 247);
     text-align: center;
-    background-color: var(--ontrend-800);
-}
+    padding: 30px 0;
+    font-family: 'Rajdhani', sans-serif;
+  }
+  footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+    font-family: 'Rajdhani', sans-serif;
+  }
 
 /* Footer headings */
 footer h2 {
@@ -2039,7 +2050,6 @@ footer h2 {
 
 footer h3 {
     font-weight: normal;
-    font-style:  italic;
     color: var(--gray-300);
     margin: 0 auto 36px auto;
     font-size: calc(20px + (32 - 20) * ((100vw - 320px)/(1920 - 320)));
@@ -2074,49 +2084,6 @@ footer ul.footer-links li a:visited {
     color: var(--white-000);
     transition: all 0.2s linear;
 }
-
-footer ul.footer-links li a:hover, 
-footer ul.footer-links li a:active  {
-    text-decoration-color: transparent;
-    background-color: transparent;
-}
-
-/* Footer icons */
-footer ul.footer-icons li a:any-link i {
-    text-decoration: none !important;
-    font-size: calc(22px + (28 - 22) * ((100vw - 320px)/(1920 - 320)));
-    color: var(--white-000);
-    border-bottom-width: 0;
-    transition: all 0.2s linear;
-}
-
-:is(footer ul.footer-icons li a:focus i, footer ul.footer-icons li a:hover i, footer ul.footer-icons li a:active i) {
-    text-decoration: none;
-    border-bottom-width: 0;
-    border-bottom-color: transparent !important; 
-    text-decoration-thickness: 0;
-    text-underline-offset: 0;
-    color: var(--white-000);
-}
-
-/* Privacy and legal link */
-footer p.privacy a:link, footer p.privacy a:hover {
-    font-size: calc(17px + (20 - 17) * ((100vw - 320px)/(1920 - 320)));
-    text-decoration: underline;
-    text-decoration-thickness: auto;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 7px;
-    text-decoration-color: var(--white-000);
-    color: var(--white-000);
-    transition: all 0.2s linear;
-}
-
-footer p.privacy a:hover, footer p.privacy a:active {
-    text-decoration-color: transparent;
-    background-color: transparent;
-}
-
-
 /* ============ UTILITY CLASSES ============== */
 
 /* Animations - only when the web page loads */

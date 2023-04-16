@@ -6,8 +6,17 @@ img.logo-nav {
   height:60px;
   
 }
-
-
+h2{ 
+  padding-top: 2cm;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+    flex-wrap: wrap;
+   display: inline-flex;
+    
+}
+h3{
+  color: rgba(209, 10, 235, 0.764);
+}
 
   nav.theme-dark .nav-toggle .bar-1,
   nav.theme-dark .nav-toggle .bar-2,
